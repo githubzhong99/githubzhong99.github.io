@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>Archives: 2021 |  Hexo</title>
+      <title> Hexo</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -53,84 +53,201 @@
       
     <main class="content on">
       <section class="outer">
-  
-  <ul class="ads">
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://curl.qcloud.com/kvO7hb43">
-                <img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/ten_1.jpg" width="300" alt="云服务器限时秒杀">
-            </a>
-        </li>
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=8630075">
-                <img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/vultr.png" width="300" alt="vultr优惠vps">
-            </a>
-        </li>
-    
-</ul>
-  
-  
-  <article class="articles">
-    
-    
-    <h1 class="page-type-title">2021</h1>
-    
-    
-  
-  
-  
-  
-  
-  
-  <div class="archives-wrap">
-    <div class="archive-year-wrap">
-      <a href="/archives/2021" class="archive-year">2021</a>
-    </div>
-    <div class="archives">
-      
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/10/24/%E4%BD%BF%E7%94%A8GitHub+hexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  <time datetime="2021-10-23T16:02:43.552Z" itemprop="datePublished">10/24</time>
-</a>
-      
+  <article
+  id="post-使用GitHub+hexo搭建一个个人博客"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+     
+    <div class="article-meta">
+      <a href="/2021/10/24/%E4%BD%BF%E7%94%A8GitHub+hexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
+  <time datetime="2021-10-23T16:02:43.552Z" itemprop="datePublished">2021-10-24</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">360</span>
+        </span>
+    </span>
 
-    </header>
-    
-    
-  </div>
-</article>
-      
-  
-  
-      <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2021/10/17/hello-world/" class="archive-article-date">
-  <time datetime="2021-10-17T10:41:36.346Z" itemprop="datePublished">10/17</time>
-</a>
-       
-<h2 itemprop="name">
-  <a class="archive-article-title" href="/2021/10/17/hello-world/"
-    >Hello World</a> 
-</h2>
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">1 min</span>
+        </span>
+    </span>
+</div>
  
-
-    </header>
-    
-    
-  </div>
-</article>
+    </div>
       
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h2 id="使用GitHub-hexo搭建一个个人博客"><a href="#使用GitHub-hexo搭建一个个人博客" class="headerlink" title="使用GitHub+hexo搭建一个个人博客"></a>使用GitHub+hexo搭建一个个人博客</h2><p>前言：很久以后才想起，想要搭建一个个人博客，记录一下笔记，当中，踩过的坑，说多了都是泪。以下是搭建博客的教程步骤。</p>
+<h2 id="目录："><a href="#目录：" class="headerlink" title="目录："></a>目录：</h2><h3 id="1-注册GitHub"><a href="#1-注册GitHub" class="headerlink" title="1.注册GitHub"></a><strong>1.注册GitHub</strong></h3><h3 id="2-安装node"><a href="#2-安装node" class="headerlink" title="2.安装node"></a><strong>2.安装node</strong></h3><h3 id="3-安装Git"><a href="#3-安装Git" class="headerlink" title="3.安装Git"></a><strong>3.安装Git</strong></h3><h3 id="4-部署到GitHub-page-上"><a href="#4-部署到GitHub-page-上" class="headerlink" title="4.部署到GitHub page 上"></a><strong>4.部署到GitHub page 上</strong></h3><h3 id="5-替换个性主题"><a href="#5-替换个性主题" class="headerlink" title="5.替换个性主题"></a><strong>5.替换个性主题</strong></h3><h3 id="6-完善博客"><a href="#6-完善博客" class="headerlink" title="6.完善博客"></a><strong>6.完善博客</strong></h3><h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a><strong>操作步骤</strong></h2><h4 id="一、注册GitHub"><a href="#一、注册GitHub" class="headerlink" title="一、注册GitHub"></a>一、注册GitHub</h4><p>GitHub官网：<a target="_blank" rel="noopener" href="https://github.com/">GitHub</a></p>
+<p>注意：注册仓库名字格式填写： 用户名+GitHub.io</p>
+<h4 id="二、安装node"><a href="#二、安装node" class="headerlink" title="二、安装node"></a>二、安装node</h4><p>node官网：<a target="_blank" rel="noopener" href="http://nodejs.cn/">Node.js 中文网 (nodejs.cn)</a></p>
+<p>注意：安装完cmd中输入node   -v    ，   npm-v    ，成功即可，环境配置，新建两个文件夹，cache和global ,在global中新建文件modal,(系统的地址环境配置)，用户环境配置到   /node 文件  就行了</p>
+<h4 id="三、安装Git"><a href="#三、安装Git" class="headerlink" title="三、安装Git"></a>三、安装Git</h4><p>Git官网：<a target="_blank" rel="noopener" href="https://git-scm.com/">Git (git-scm.com)</a></p>
+<p>注意：安装完后Git bash  中设置username，useremail，设置ssh链接GitHub，后面安装hexo博客，新建博客文件，有个插件也需要安装下，不然报错，</p>
+<h4 id="四、部署到GitHub-page-上"><a href="#四、部署到GitHub-page-上" class="headerlink" title="四、部署到GitHub page 上"></a>四、部署到GitHub page 上</h4><p>注意：要先链接到GitHub仓库，打开新建的博客文件，hexo init，</p>
+<p>hexo  s ,hexo d ,部署到GitHub上</p>
+<h4 id="五、替换个性主题"><a href="#五、替换个性主题" class="headerlink" title="五、替换个性主题"></a>五、替换个性主题</h4><p>注意：找到主题，下载zip安装包，解压到thems文件夹中，充命名为主题类型，并且修改配置文件为主题类型</p>
+<h4 id="六、完善主题"><a href="#六、完善主题" class="headerlink" title="六、完善主题"></a><strong>六、完善主题</strong></h4><p>注意：知道如何修改配置文件，以及网站链接配置文件的修改</p>
+ 
+      <!-- reward -->
+      
+      <div id="reword-out">
+        <div id="reward-btn">
+          Donate
+        </div>
+      </div>
       
     </div>
-  </div>
-  
-  
+    
 
-  
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>Copyright： </strong>
+          
+          Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2021/10/24/%E4%BD%BF%E7%94%A8GitHub+hexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2021/10/17/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">Hello World</div>
+      </a>
+    
+  </nav>
+
+   
+<!-- valine评论 -->
+<div id="vcomments-box">
+  <div id="vcomments"></div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: "#vcomments",
+    app_id: "",
+    app_key: "",
+    path: window.location.pathname,
+    avatar: "monsterid",
+    placeholder: "给我的文章加点评论吧~",
+    recordIP: true,
+  });
+  const infoEle = document.querySelector("#vcomments .info");
+  if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+    infoEle.childNodes.forEach(function (item) {
+      item.parentNode.removeChild(item);
+    });
+  }
+</script>
+<style>
+  #vcomments-box {
+    padding: 5px 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    #vcomments-box {
+      padding: 5px 0px;
+    }
+  }
+
+  #vcomments-box #vcomments {
+    background-color: #fff;
+  }
+
+  .v .vlist .vcard .vh {
+    padding-right: 20px;
+  }
+
+  .v .vlist .vcard {
+    padding-left: 10px;
+  }
+</style>
+
+ 
+   
+     
+</article>
+
 </section>
       <footer class="footer">
   <div class="outer">
@@ -279,6 +396,22 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link
